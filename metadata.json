@@ -1,0 +1,32 @@
+{
+  "id": "superdense-coding",
+  "name": "Superdense Coding",
+  "category": "fundamentals",
+  "description": "Transmit 2 classical bits using 1 qubit and a pre-shared Bell pair (encodes message '11').",
+  "long_description": "Superdense coding is the 'dual' of teleportation: it uses a shared entangled pair and a single qubit transmission to communicate 2 classical bits. Alice applies local Pauli operations to encode her 2-bit message, then sends her qubit to Bob. Bob performs a Bell measurement to decode the message. This circuit encodes '11'.",
+  "difficulty": "beginner",
+  "qubit_count": 2,
+  "clbit_count": 2,
+  "gate_count": 6,
+  "depth": 6,
+  "tags": [
+    "superdense-coding",
+    "fundamentals",
+    "entanglement",
+    "communication"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "c[0]=1, c[1]=1 (message '11' decoded)",
+  "references": [
+    {
+      "title": "Bennett & Wiesner (1992). Communication via One- and Two-Particle Operators. PRL 69, 2881",
+      "url": "https://doi.org/10.1103/PhysRevLett.69.2881"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
