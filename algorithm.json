@@ -1,0 +1,35 @@
+{
+  "slug": "superdense-coding",
+  "name": "Superdense Coding",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "MIT",
+  "description": "Transmit 2 classical bits using 1 qubit and a pre-shared Bell pair (encodes message '11').",
+  "industries": [
+    "education",
+    "cryptography"
+  ],
+  "techniques": [
+    "gate"
+  ],
+  "difficulty": "beginner",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 2,
+  "tags": [
+    "superdense-coding",
+    "fundamentals",
+    "entanglement",
+    "communication"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "complexity_classical": "N/A",
+    "complexity_quantum": "O(1)",
+    "year_introduced": 1992,
+    "references": [
+      "https://doi.org/10.1103/PhysRevLett.69.2881"
+    ]
+  }
+}
